@@ -14,7 +14,7 @@ public class Homework {
                 } catch (NoSuchElementException e){
                     System.out.println("Очередь пуста");
                 }
-            } else if (input != "") {
+            } else if (!"".equals(input)) {
                 deque.addFirst(input);
             }
         }
